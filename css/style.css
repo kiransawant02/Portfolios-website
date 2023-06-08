@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0%;
+   }
+   .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+   }
+   .col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+   }
+   .col-1 h1{
+    font-size: 54px;
+   }
+   .col-1 h5{
+    font-size: 25px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+   }
+   .col-1 p{
+    color: blue;
+   }
+   .col-1 a{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right,#87CEFA, #6495ED);
+    border-radius: 5px;
+   }
+   
